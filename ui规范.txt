@@ -1,0 +1,23 @@
+http://redmine.gomeo2omx.cn/news/19#userconsent#
+
+
+
+手机调试fiddler：
+
+1，猎豹免费wifi下载：
+
+   01.设置用户名密码
+   
+   02.手机wifi搜索到刚刚设置的wifi  然后设置一下路由：8888  192.168.191.1
+ 
+2,fiddler官网下载
+
+3，然后tools》fiddler  options……》8888 （多选第二个）
+
+4，右侧第三个（autoresponder）勾选前两个 》 add rule 》 
+
+   第一个输入框：regex:^http://kezhen.me/(.*?)  
+   
+   第二个输入框：文件夹地址（如：E:\gomeplusUI\$1）
+
+5，输入地址即可访问：http://kezhen.me/html/share.html》草料生存二维码
